@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Article preview component</title>
+  <link href="./styles.css" rel="stylesheet" />
+  <script defer src="./script.js"></script>
+
+
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <picture>
+        <img class="card-img" src="./images/drawers.jpg"
+          alt="Green chest of Draws with picture frame and wheat in a vase">
+      </picture>
+      <div class="card-content-container">
+        <div class="card-content">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </h1>
+
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+          </p>
+        </div>
+        <div class="card-footer">
+          <div class="card-details">
+            <img class="card-footer-image" src="./images/avatar-michelle.jpg" alt="headshot" width="40" height="40">
+            <div>
+              <p class="card-footer-name">Michelle Appleton</p>
+              <span class="card-footer-date">28 Jun 2020</span>
+            </div>
+          </div>
+          <button id="show-banner-button" class="card-share-button">
+            <span class="sr-only">Share</span>
+            <img src="./images/icon-share.svg" alt="share icon" width="15" height="13">
+          </button>
+          <div class="card-share-banner hide">
+            <div class="card-share-icons">
+              <span class="title">Share</span>
+              <img src="./images/icon-facebook.svg" alt="facebook icon" width="20" height="20">
+              <img src="./images/icon-twitter.svg" alt="twitter icon" width="20" height="20">
+              <img src="./images/icon-pinterest.svg" alt="pinterest icon" width="20" height="20">
+            </div>
+            <button id="hide-banner-button" class="card-share-button">
+              <img src="./images/icon-share-white.svg" alt="share icon" width="15" height="13">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/awaritefe">Daniel Tefe</a>.
+  </div>
+</body>
+
+</html>
